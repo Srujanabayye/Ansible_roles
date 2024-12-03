@@ -1,0 +1,6 @@
+---
+- name: Restart nginx
+  service:
+    name: "{{pkg1}}"
+    state: "{{state2}}"
+...

@@ -1,0 +1,6 @@
+---
+- name: Configure nginx
+  hosts: all
+  roles:
+    - nginx
+...

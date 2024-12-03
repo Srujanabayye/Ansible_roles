@@ -1,0 +1,7 @@
+---
+- name: Copy index.html file
+  copy:
+    src: "{{file1}}"
+    dest: "{{dest1}}"
+  notify: check_url_response
+...

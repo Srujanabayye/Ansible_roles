@@ -1,0 +1,12 @@
+---
+# vars file for nginx
+pkg1: nginx
+state1: present
+cache1: yes
+file1: index.html
+dest1: /usr/share/nginx/html
+state2: restarted
+server1: "http://172.31.25.77:80"
+server2: "http://172.31.29.183:80"
+status1: 200
+...
